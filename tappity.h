@@ -1,6 +1,7 @@
 #ifndef _TAPPITY_H_
 #define _TAPPITY_H_
 #include <string>
+#include <cmath>
 
 /**
  * Class for tappity
@@ -8,7 +9,10 @@
 class tappity
 {
     private:
-
+        //we may only add private functions/variables
+        std::string reference;
+        std::string input;
+        int ldifference;
     public:
         //Constructor sets the reference phrase
         tappity(std::string reference);
